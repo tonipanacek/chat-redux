@@ -1,9 +1,6 @@
-const usernameReducer = (state, action) => {
-  if (state === undefined) {
-    return [];
+export default function(state = null, action) {
+  switch (action.type) {
+    default:
+      return state;
   }
-
-  // TODO handle some action
-};
-
-export default usernameReducer;
+}
